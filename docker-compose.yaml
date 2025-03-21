@@ -1,0 +1,40 @@
+services:
+  client:
+    build: ./client
+    ports:
+      - "3000:3000"
+    networks:
+      - news-portal-main
+    depends_on:
+      - news-portal-main
+
+  news-portal-main:
+    build: .
+    ports:
+      - "5000:5000"
+    networks:
+      - news-portal-main
+    depends_on:
+      - mongo
+
+  mongo:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    networks:
+      - news-portal-main
+    volumes:
+      - mongo-data:/data/db
+
+networks:
+  news-portal-main:
+    driver: bridge
+
+volumes:
+  mongo-data:
+    driver: local
+
+
+
+
+
