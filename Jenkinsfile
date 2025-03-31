@@ -45,13 +45,11 @@ pipeline {
         stage('Terraform Apply') {
             steps {
                 script {
-                    
-                    dir("$TERRAFORM_DIR") {
-                        
-                        bat 'terraform init'
-
-                        
-                        bat 'terraform apply -auto-approve'
+                    withCredentials([aws(credentialsId: 'aws')]) {  
+                        dir("$TERRAFORM_DIR") {
+                            bat 'terraform init'
+                            bat 'terraform apply -auto-approve'
+                        }
                     }
                 }
             }
