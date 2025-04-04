@@ -24,6 +24,30 @@
 },
 {
   "_id": {
+    "$oid": "6598bd90663a46defda5d85c"
+  },
+  "writerId": {
+    "$oid": "65219a74eda1b0d696ec938b"
+  },
+  "writerName": "Samim Islam",
+  "title": "Kusal Mendis, Sadeera Samarawickrama set Pakistan daunting target",
+  "slug": "Kusal-Mendis,-Sadeera-Samarawickrama-set-Pakistan-daunting-target",
+  "image": "http://res.cloudinary.com/dpj4vsqbo/image/upload/v1704469199/news/h8ipcjmxzjcvfzvwctzj.webp",
+  "category": "Sports",
+  "description": "<p>Sparkling centuries from Kusal Mendis and Sadeera Samarawickrama helped Sri Lanka post 344/9 in Hyderabad on Tuesday (October 10). Mendis set a record enroute his stunning ton as he brought up three figures off just 65 balls - the fastest by a Sri Lankan in World Cups. He found support at the start from opener Pathum Nissanka who hit a crisp fifty.  Pakistan actually made a great start after Sri Lanka opted to bat first. Kusal Perera nicked one behind while attempting to cut Hasan Ali and departed for a duck in just the second over. But Mendis wasted little time to get going as he took on the Pakistan attack in the powerplay. The men in green could have easily sent him packing early in his innings had Imam-ul-Haq managed to hold on to a chance gifted by Mendis when he was batting only on 18. Nissanka at the other end hammered Ali for a six and a four to keep Sri Lanka rolling. At one point, Nissanka was way ahead of Mendis as he kept finding the boundary regularly to race to 43.  Mendis managed to catch up soon with his partner however as both the batters managed to get to their fifties in the same over. Shadab Khan finally gave Pakistan a much-needed breakthrough by getting rid of Nissanka but the relief didn't last long. Mendis and Samarawickrama stunned their opposition as both the batters hit a six each off Haris Rauf. Mendis absolutely feasted on the Pakistan attack as the flurry of boundaries continued with even Shaheen Afridi failing to control the flow of runs. At the halfway mark, Sri Lanka were 181/2 before Mendis hit Ali over the ropes to bring up a stunning hundred.</p><p><br></p><iframe width=\"1190px\" height=\"524px\" src=\"https://www.youtube.com/embed/-8kE5E6gCfQ\" frameborder=\"0\" allowfullscreen=\"\"></iframe><p><br></p><p><br></p><p><br></p>",
+  "date": "January 5, 2024",
+  "status": "pending",
+  "count": 2,
+  "createdAt": {
+    "$date": "2024-01-06T02:40:16.356Z"
+  },
+  "updatedAt": {
+    "$date": "2024-01-06T02:43:09.872Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
     "$oid": "6520e59029f11c8c918e8f2b"
   },
   "writerId": {
